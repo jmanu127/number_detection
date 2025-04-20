@@ -20,7 +20,7 @@ This project combines deep learning and traditional computer vision to classify 
 ├── setup_data.py          # Dataset loading & preprocessing
 ├── config_mymodel.yaml    # Hyperparameter configuration
 ├── main.py                # Main training/inference script
-├── graded_images/         # Output folder for digit-detected images
+├── images/         # Output folder for digit-detected images
 └── README.md              # You're here!
 ```
 
@@ -62,7 +62,7 @@ After training (or loading a pre-trained model), the program detects and classif
 ```
 python main.py --config ./config_mymodel.yaml
 ```
-Detected digits will be drawn onto the images and saved into the marked_images/ directory.
+Detected digits will be drawn onto the images and saved into the images/ directory.
 
 📌 Notes
 
