@@ -13,6 +13,8 @@ This project combines deep learning and traditional computer vision to classify 
     🧠 Digit recognition via the trained model, overlaid on original images.
 
     💾 Save the best model based on validation accuracy.
+
+### 🗂️ Project Structure
 ```
 .
 ├── my_model.py            # Custom CNN model definition
