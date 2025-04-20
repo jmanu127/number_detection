@@ -22,7 +22,7 @@ This project combines deep learning and traditional computer vision to classify 
 ├── setup_data.py          # Dataset loading & preprocessing
 ├── config_mymodel.yaml    # Hyperparameter configuration
 ├── main.py                # Main training/inference script
-├── images/         # Output folder for digit-detected images
+├── images/                # Output folder for digit-detected images
 └── README.md              # You're here!
 ```
 
