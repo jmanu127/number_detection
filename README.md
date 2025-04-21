@@ -93,3 +93,5 @@ Detected digits will be drawn onto the images and saved into the images/ directo
 
 ![My Sample Image](5.png)
 
+![My Sample Image](6.png)
+
