@@ -27,13 +27,13 @@ This project combines deep learning and traditional computer vision to classify 
 ```
 
 ### 🧪 Dataset Used
-```
+
     SVHN (Street View House Numbers)
 
     CIFAR10 (only the "extra class" labeled as 10)
 
     Digits are from SVHN (0–9), and CIFAR10 is treated as class 10 to simulate out-of-domain distractors.
-```
+
 
 ### ⚙️ Configuration
 
@@ -61,7 +61,7 @@ python main.py --config ./config_mymodel.yaml
 🕵️‍♂️ Digit Detection on Real Images
 
 After training (or loading a pre-trained model), the program detects and classifies digits from images using OpenCV:
-```
+```bash 
 python main.py --config ./config_mymodel.yaml
 ```
 Detected digits will be drawn onto the images and saved into the images/ directory.
@@ -81,3 +81,15 @@ Detected digits will be drawn onto the images and saved into the images/ directo
     Replace MSER with a learnable region proposal network
 
     Expand with more datasets (e.g., MNIST, synthetic)
+
+
+![My Sample Image](1.png)
+
+![My Sample Image](2.png)
+
+![My Sample Image](3.png)
+
+![My Sample Image](4.png)
+
+![My Sample Image](5.png)
+
