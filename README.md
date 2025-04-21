@@ -83,15 +83,15 @@ Detected digits will be drawn onto the images and saved into the images/ directo
     Expand with more datasets (e.g., MNIST, synthetic)
 
 
-![My Sample Image](photos/1.png)
+![My Sample Image](images/1.png)
 
-![My Sample Image](photos/2.png)
+![My Sample Image](images/2.png)
 
-![My Sample Image](photos/3.png)
+![My Sample Image](images/3.png)
 
-![My Sample Image](photos/4.png)
+![My Sample Image](images/4.png)
 
-![My Sample Image](photos/5.png)
+![My Sample Image](images/5.png)
 
-![My Sample Image](photos/6.png)
+![My Sample Image](images/6.png)
 
