@@ -2,8 +2,6 @@
 import torch
 import time
 
-
-
 class Average(object):
     """
     calculates average and current values
