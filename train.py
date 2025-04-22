@@ -94,12 +94,11 @@ def validate(epoch, val_loader, model, criterion):
 
         #forward
         out = model(data)
-        #print(f'target: ',target.shape)
-        #print(f'output: ',out.shape)
+        
         #loss
         with torch.no_grad():
             loss = criterion(out, target)
-        #print(f'loss: ',loss.shape)
+        
 
         batch_acc = accuracy(out, target)
 
