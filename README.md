@@ -1,20 +1,20 @@
-# 🧠 Digit Classification & Detection with PyTorch + OpenCV
+# Digit Classification & Detection with PyTorch + OpenCV
 
 This project combines deep learning and traditional computer vision to classify digits in natural scene images. It uses PyTorch to train a CNN on SVHN and CIFAR10, then leverages MSER (Maximally Stable Extremal Regions) from OpenCV to detect digits in real-world images.
 
-### 📦 Features
+### Features
 
-    📚 Train and evaluate a custom CNN (MyModel) or VGG16 on SVHN + CIFAR10.
+   Train and evaluate a custom CNN (MyModel) or VGG16 on SVHN + CIFAR10.
 
-    🧪 Validation and testing loops with per-class accuracy and confusion matrix.
+   Validation and testing loops with per-class accuracy and confusion matrix.
 
-    🎯 Digit detection from raw images using OpenCV's MSER.
+   Digit detection from raw images using OpenCV's MSER.
 
-    🧠 Digit recognition via the trained model, overlaid on original images.
+   Digit recognition via the trained model, overlaid on original images.
 
-    💾 Save the best model based on validation accuracy.
+   Save the best model based on validation accuracy.
 
-### 🗂️ Project Structure
+### Project Structure
 ```
 .
 ├── my_model.py            # Custom CNN model definition
@@ -26,7 +26,7 @@ This project combines deep learning and traditional computer vision to classify 
 └── README.md              # You're here!
 ```
 
-### 🧪 Dataset Used
+### Dataset Used
 
     SVHN (Street View House Numbers)
 
@@ -35,7 +35,7 @@ This project combines deep learning and traditional computer vision to classify 
     Digits are from SVHN (0–9), and CIFAR10 is treated as class 10 to simulate out-of-domain distractors.
 
 
-### ⚙️ Configuration
+### Configuration
 
 Modify the config_mymodel.yaml file to set parameters like:
 ```
@@ -51,14 +51,14 @@ train:
   train: True
 ```
 
-📈 Training
+Training
 
 To train the model (either MyModel or vgg16):
 ```bash
 python main.py --config ./config_mymodel.yaml
 ```
 
-🕵️‍♂️ Digit Detection on Real Images
+Digit Detection on Real Images
 
 After training (or loading a pre-trained model), the program detects and classifies digits from images using OpenCV:
 ```bash 
@@ -66,7 +66,7 @@ python main.py --config ./config_mymodel.yaml
 ```
 Detected digits will be drawn onto the images and saved into the images/ directory.
 
-📌 Notes
+Notes
 
     Make sure to modify MSER parameters (delta, min_area, max_area, distance) in main.py for best results on different images.
 
@@ -74,7 +74,7 @@ Detected digits will be drawn onto the images and saved into the images/ directo
 
     find_digit() handles region proposal, cropping, transformation, and prediction.
 
-🧠 Future Work
+Future Work
 
     Integrate CTC for sequence detection
 
@@ -94,4 +94,3 @@ Detected digits will be drawn onto the images and saved into the images/ directo
 ![My Sample Image](images/5.png)
 
 ![My Sample Image](images/6.png)
-
